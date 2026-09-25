@@ -1,2 +1,11 @@
+[project]
+name = "google-images-api"
+version = "0.1.0"
+description = "Google Images API with developer credit"
+requires-python = ">=3.12"
+dependencies = [
+    "serpapi",
+]
+
 [tool.vercel]
 entrypoint = "api.images:handler"
