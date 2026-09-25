@@ -1,7 +1,10 @@
 {
+  "version": 2,
   "functions": {
     "api/images.py": {
-      "runtime": "python3.12"
+      "runtime": "@vercel/python@4.3.0",
+      "memory": 1024,
+      "maxDuration": 30
     }
   }
 }
